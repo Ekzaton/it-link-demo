@@ -1,0 +1,12 @@
+.card {
+  padding: 20px 0;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+  }
+}

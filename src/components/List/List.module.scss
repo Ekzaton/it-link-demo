@@ -1,0 +1,25 @@
+.list {
+  padding: 20px 0;
+
+  &__search {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
+
+    input {
+      margin-right: 10px;
+    }
+
+    select {
+      width: 30%;
+    }
+  }
+
+  table {
+    margin-top: 10px;
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+}

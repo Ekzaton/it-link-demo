@@ -1,0 +1,21 @@
+.form {
+  padding: 20px;
+
+  &__group {
+    padding-bottom: 20px;
+
+    &_wrap {
+      display: flex;
+      justify-content: space-between;
+      height: 38px;
+
+      input {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  textarea {
+    resize: none;
+  }
+}

@@ -4,7 +4,7 @@ import { Item } from "@/types/common";
 
 export const search = createApi({
     reducerPath: "search",
-    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/api/" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "/api/" }),
     endpoints: (builder) => ({
         getSearchResults: builder.query<Item[], { q: string, t: string }>({
             query: ({q, t}) => `search?query=${q}&type=${t}`,
